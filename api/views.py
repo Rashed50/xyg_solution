@@ -18,7 +18,7 @@ def index(request):
     # return JsonResponse(data)
     return render(request, 'index.html')
 
-def index_view(request):
+def login_request(request):
     data = {
         'message': 'Hello, world!',
         'status': 'success'
